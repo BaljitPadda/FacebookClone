@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(59, 89, 152);
+    padding: 1.1em;
+}
+
+header p {
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.headerFormFields,
+.headerLoginButton {
+    padding: 8px;
+    margin-right: 3px;
+    border-radius: 4px;
+    border-color: rgba(59, 89, 152);
+    border-style: none;
+
+}
+
+.title {
+    justify-content: left;
+}
+
+main {
+    margin-top: 2em;
+    margin-left: 15px;
+}
+
+.tagline {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: larger;
+    font-weight: 900;
+}
+
+
+.createAccountForm legend {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.createAccountForm p {
+    font-size: smaller;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.createAccountForm input {
+    margin-right: 4px;
+    margin-bottom: 11px;
+    padding: 5px;
+
+}
+
+.dropdowns {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signUpButton {
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-style: none;
+    background: linear-gradient();
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    width: 185px;
+    border-radius: 5px;
+    background-color: rgb(112, 168, 66);
+    background: linear-gradient(-200deg, rgb(112, 168, 66), rgb(58, 83, 52));
+}
+
+.mainContainer {
+    display: flex;
+}
+
+main img {
+    margin-top: 2em;
+    margin-left: 28px;
+
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}

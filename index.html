@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <p class="title"> DFA Learn HTML/CSS</p>
+        <form class="loginForm" action="facebook.com">
+            <label for="email"></label>
+            <input class="headerFormFields" type="text" placeholder="Enter email...">
+            <label for="password"></label>
+            <input class="headerFormFields" type="text" placeholder="Enter password...">
+            <input class="headerLoginButton" type="submit" value="Login">
+        </form>
+    </header>
+
+    <main class="mainContainer">
+        <p class="tagline"> Facebook helps you to connect and share with the people in your life.
+            <img class="taglineImage" src="./images/peopleNetwork.png" alt="diagram of people connected together"
+                height="300">
+        </p>
+
+        <form class="createAccountForm">
+            <legend> Create an Account</legend>
+            <p> It's free and always will be </p>
+            <label for="firstname"></label>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name">
+            <label for="lastname"></label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name"> <br>
+
+            <input type="text" name="mobileOrEmail" id="mobileOrEmail" placeholder="Mobile number or Email"> <br>
+            <input type="text" name="newPassword" id="newPassword" placeholder="New Password"> <br>
+            <label class="birthdayLabel" for="birthday">Birthday</label> <br>
+            <select class="dropdowns" name="day" id="day">
+                <option value="day">1</option>
+                <option value="day">2</option>
+                <option value="day">3</option>
+            </select>
+            <select class="dropdowns" name="month" id="month">
+                <option value="month">Jan</option>
+                <option value="month">Feb</option>
+                <option value="month">Mar</option>
+            </select>
+            <select class="dropdowns" name="year" id="year">
+                <option value="year">2004</option>
+                <option value="year">2005</option>
+                <option value="year">2006</option>
+            </select> <br>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <p> By clicking Sign Up, you agree to our Terms, Data Policy and Cookie
+                Policy. You may receive SMS notifications from us and can opt out at
+                any time.
+            </p>
+
+            <button class="signUpButton" name="signup" value="signup">Sign Up</button>
+            <p> &copy; Baljit Padda </p>
+        </form>
+    </main>
+
+</body>
+
+</html>
